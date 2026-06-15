@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Адаптивная система обучения</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap&subset=cyrillic,latin" rel="stylesheet">
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<div class="app">
+
+  <!-- ░░ Left rail ░░ -->
+  <aside class="rail">
+    <div class="brand">
+      <svg class="glyph" width="30" height="30" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <rect x="1.5" y="1.5" width="29" height="29" rx="9" stroke="#7b7be6" stroke-width="1.6"/>
+        <path d="M5 22C9 22 11 8 16 8s7 14 11 14" stroke="#e8a33d" stroke-width="2.2" stroke-linecap="round"/>
+        <circle cx="16" cy="8" r="2.6" fill="#fff"/>
+      </svg>
+      <div>
+        <div class="name">Калибр</div>
+        <div class="sub">Adaptive · IRT</div>
+      </div>
+    </div>
+
+    <nav class="nav" id="nav">
+      <button data-nav="catalog" onclick="go('catalog')">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+        <span class="lbl">Предметы</span>
+      </button>
+      <button data-nav="analytics" onclick="go('analytics')">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19V5M4 19h16M8 16v-4M12 16V8M16 16v-7"/></svg>
+        <span class="lbl">Аналитика</span>
+      </button>
+      <button data-nav="progress" onclick="go('progress')">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 14l5-5 4 4 7-7M16 3h5v5"/></svg>
+        <span class="lbl">Прогресс</span>
+      </button>
+      <button data-nav="admin" id="nav-admin" hidden onclick="go('admin')">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="M9 12l2 2 4-4"/></svg>
+        <span class="lbl">Админ</span>
+      </button>
+    </nav>
+
+    <div class="spacer"></div>
+    <div class="stage-pick" id="stage-pick" hidden>
+      <div class="muted tiny" style="margin-bottom:6px;letter-spacing:.04em;text-transform:uppercase">Ступень сложности</div>
+      <select id="stage-select" onchange="setStage(this.value)"></select>
+      <div class="tiny muted" id="stage-hint" style="margin-top:6px"></div>
+    </div>
+    <div class="whoami" id="whoami" hidden>
+      <span class="muted small">Профиль</span><br>
+      <b id="whoami-name">—</b>
+      <span class="tiny muted" id="whoami-role"></span>
+      <span class="reset" onclick="logout()">Выйти</span>
+    </div>
+  </aside>
+
+  <!-- ░░ Content ░░ -->
+  <main class="content">
+
+    <!-- ════ AUTH (вход / регистрация) ════ -->
+    <section class="screen" id="screen-auth" aria-label="Вход">
+      <div class="auth-wrap">
+        <div class="auth-hero">
+          <svg class="curve" viewBox="0 0 220 160" fill="none" aria-hidden="true">
+            <path d="M5 150C70 150 70 12 215 12" stroke="#7b7be6" stroke-width="2.5" stroke-linecap="round" class="draw" pathLength="1" opacity=".55"/>
+            <path d="M5 150C70 150 70 12 215 12" stroke="#e8a33d" stroke-width="2.5" stroke-linecap="round" class="draw" pathLength="1" style="animation-delay:.5s"/>
+            <line x1="5" y1="150" x2="215" y2="150" stroke="#4a4b80" stroke-width="1"/>
+            <line x1="5" y1="12" x2="5" y2="150" stroke="#4a4b80" stroke-width="1"/>
+          </svg>
+          <div class="eyebrow" style="color:#9b9df0">Адаптивное обучение · IRT</div>
+          <h1>Войдите в систему</h1>
+          <p>У каждого учащегося — свой профиль, свои результаты тестов и персональные рекомендации. Все экзаменационные сессии сохраняются.</p>
+        </div>
+
+        <div class="card pad auth-card">
+          <div class="seg" id="auth-seg">
+            <button class="on" data-auth="login" onclick="authTab('login')">Вход</button>
+            <button data-auth="register" onclick="authTab('register')">Регистрация</button>
+          </div>
+
+          <!-- Вход -->
+          <div id="auth-login">
+            <div class="field"><label>Логин</label><input type="text" id="login-username" autocomplete="username" placeholder="например, aigerim"></div>
+            <div class="field"><label>Пароль</label><input type="password" id="login-password" autocomplete="current-password" placeholder="••••••" onkeydown="if(event.key==='Enter')doLogin()"></div>
+            <button class="btn primary lg full" id="btn-login" onclick="doLogin()">Войти <span class="arr">→</span></button>
+          </div>
+
+          <!-- Регистрация -->
+          <div id="auth-register" hidden>
+            <div class="field"><label>Имя (как к вам обращаться)</label><input type="text" id="reg-name" placeholder="Айгерим" maxlength="40"></div>
+            <div class="field"><label>Логин</label><input type="text" id="reg-username" autocomplete="username" placeholder="минимум 3 символа"></div>
+            <div class="field"><label>Пароль</label><input type="password" id="reg-password" autocomplete="new-password" placeholder="минимум 4 символа" onkeydown="if(event.key==='Enter')doRegister()"></div>
+            <button class="btn primary lg full" id="btn-register" onclick="doRegister()">Создать аккаунт <span class="arr">→</span></button>
+          </div>
+
+          <div class="auth-err" id="auth-err" hidden></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════ 0. Onboarding ════ -->
+    <section class="screen" id="screen-onboarding" aria-label="Профиль">
+      <div class="hero">
+        <svg class="curve" viewBox="0 0 220 160" fill="none" aria-hidden="true">
+          <path d="M5 150C70 150 70 12 215 12" stroke="#7b7be6" stroke-width="2.5" stroke-linecap="round" class="draw" pathLength="1" opacity=".55"/>
+          <path d="M5 150C70 150 70 12 215 12" stroke="#e8a33d" stroke-width="2.5" stroke-linecap="round" class="draw" pathLength="1" style="animation-delay:.5s"/>
+          <line x1="5" y1="150" x2="215" y2="150" stroke="#4a4b80" stroke-width="1"/>
+          <line x1="5" y1="12" x2="5" y2="150" stroke="#4a4b80" stroke-width="1"/>
+        </svg>
+        <div class="head" style="margin-bottom:8px">
+          <div class="eyebrow" style="color:#9b9df0">Диагностика уровня</div>
+          <h1>Учим по вашему<br>уровню знаний</h1>
+        </div>
+        <p>Нейросеть LearnerProfileNet оценит стартовый уровень, а адаптивный движок на основе теории ответов на задания (IRT) подберёт вопросы точно под вас — и подстроится после каждого ответа.</p>
+      </div>
+
+      <div class="sec-title"><h2>Выберите стартовый профиль</h2><div class="rule"></div></div>
+      <div class="grid cols-3" id="personas"></div>
+
+      <div class="field" style="margin-top:18px;max-width:280px">
+        <label>Как к вам обращаться</label>
+        <input type="text" id="username" placeholder="Студент" maxlength="40">
+      </div>
+
+      <div class="row wrap" style="margin-top:20px">
+        <button class="btn primary lg" id="btn-start" onclick="createUser()">Начать <span class="arr">→</span></button>
+      </div>
+      <div id="assess-slot" style="margin-top:18px"></div>
+    </section>
+
+    <!-- ════ 1. Subject catalog ════ -->
+    <section class="screen" id="screen-catalog" aria-label="Каталог предметов">
+      <div class="head">
+        <div class="eyebrow">Каталог</div>
+        <h1>Предметы</h1>
+        <p>Выберите дисциплину. Полоса показывает ваш текущий уровень освоения. Или пройдите быструю диагностику по всем предметам сразу.</p>
+      </div>
+      <div class="row wrap" style="margin-bottom:18px">
+        <button class="btn" onclick="startSession({scope:'all'})"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M12 3v18M3 12h18"/></svg> Полная диагностика</button>
+      </div>
+      <div class="grid cols-auto" id="subjects"></div>
+    </section>
+
+    <!-- ════ 2. Topic selection ════ -->
+    <section class="screen" id="screen-topics" aria-label="Выбор темы">
+      <div class="crumbs"><button onclick="go('catalog')">Предметы</button><span class="sep">/</span><span id="tp-subject">—</span></div>
+      <div class="head">
+        <div class="eyebrow" id="tp-eyebrow">Темы</div>
+        <h1 id="tp-title">—</h1>
+        <p>Рекомендованная тема отмечена — движок предлагает начать с того, что западает. Но выбор за вами.</p>
+      </div>
+      <div class="row wrap" style="margin-bottom:16px">
+        <button class="btn" id="tp-subject-test"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M5 12h14M13 6l6 6-6 6"/></svg> Тест по всему предмету</button>
+      </div>
+      <div class="stack" id="topics"></div>
+    </section>
+
+    <!-- ════ 3+4. Quiz + feedback ════ -->
+    <section class="screen" id="screen-quiz" aria-label="Тест">
+      <div class="crumbs" id="quiz-crumbs"></div>
+      <div class="quizbar">
+        <div class="progress"><i id="quiz-prog" style="width:0%"></i></div>
+        <div class="qcount" id="quiz-count">—</div>
+      </div>
+
+      <div class="card pad" id="quiz-gauge" style="margin-bottom:16px"></div>
+
+      <div id="quiz-slot"></div>
+    </section>
+
+    <!-- ════ 5. Results ════ -->
+    <section class="screen" id="screen-results" aria-label="Итоги теста">
+      <div class="head"><div class="eyebrow">Итоги сессии</div><h1 id="res-title">Результат</h1></div>
+      <div id="oc-results"></div>
+      <div id="results-slot"></div>
+    </section>
+
+    <!-- ════ 6. Recommendations ════ -->
+    <section class="screen" id="screen-plan" aria-label="Рекомендации">
+      <div class="head"><div class="eyebrow">Персональный план</div><h1>Рекомендации на 2 недели</h1>
+        <p id="plan-intro">План построен из ваших результатов: модель рекомендаций определяет приоритеты, движок IRT — уровень.</p>
+      </div>
+      <div id="oc-plan"></div>
+      <div id="plan-slot"></div>
+    </section>
+
+    <!-- ════ 7. Analytics ════ -->
+    <section class="screen" id="screen-analytics" aria-label="Аналитика">
+      <div class="head"><div class="eyebrow">Аналитика обучения</div><h1>Что вы знаете</h1>
+        <p>Освоение по предметам и темам, сильные и слабые концепции, разбор типов ошибок.</p>
+      </div>
+      <div id="oc-analytics"></div>
+      <div id="analytics-slot"></div>
+    </section>
+
+    <!-- ════ 8. Progress ════ -->
+    <section class="screen" id="screen-progress" aria-label="Прогресс">
+      <div class="head"><div class="eyebrow">Динамика</div><h1>Ваш прогресс</h1>
+        <p>История сессий, изменение уровня θ во времени и охват программы. Нажмите на пройденный тест, чтобы вернуться к его итогам и рекомендациям.</p>
+      </div>
+      <div id="progress-slot"></div>
+    </section>
+
+    <!-- ════ 9. Admin ════ -->
+    <section class="screen" id="screen-admin" aria-label="Админ-панель">
+      <div class="head"><div class="eyebrow">Панель преподавателя</div><h1>Администрирование</h1>
+        <p>Сводка по всем учащимся, самые сложные темы программы и управление пользователями.</p>
+      </div>
+      <div id="admin-slot"></div>
+    </section>
+
+  </main>
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>

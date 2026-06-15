@@ -1,0 +1,296 @@
+id,year,type,question
+1,2015,MCQ,A Network Topology that always uses central server is? | Bus | Star | Ring | Hybrid
+2,2015,MCQ,FM stands for? | Frequent Modulation | Frequency Modification | Functional Module | Frequency Modulation
+3,2015,MCQ,Daisy wheel is a type of? | Tape | Printer | Scanner | Disk
+4,2015,MCQ,1 Giga Byte (GB) is equivalent to? | 1024 Bytes | 1024 KB | 1024 MB | 1024 TB
+5,2015,MCQ,The full form of SIMM is? | Single Interfacing Memory Module | Simple Inline Memory Module | Single Inline Memory Module | Simple Inline Memory Mode
+6,2015,MCQ,The set of rules to send and receive data is called? | Ethernet | Register | Protocol | Bus
+7,2015,MCQ,The electrical path that carries data from one place to another place is called? | Bus | Modem | SIMM | DIMM
+8,2015,MCQ,Co-axial cable and fibre optics are the examples of? | Router | Modem | Communication Media | Communication Mode
+9,2015,MCQ,The process of converting analog signal into digital signal is called? | Modulation | Telecommunication | Demodulation | Compilation
+10,2015,MCQ,A mode of communication that allows two way communication but not simultaneously is called? | Full duplex | Half duplex | Half simplex | Simplex
+11,2015,MCQ,Extension of Microsoft Excel file is? | .doc | .xls | .bmp | .ppt
+12,2015,MCQ,This is an antivirus program? | Internet Explorer | Torjan | Worm | McAfee
+13,2015,MCQ,This part of CPU performs all arithmetic and logic operations? | CU | MU | ALU | ROM
+14,2015,MCQ,A software that enables user to interact with computer hardware is called? | Operating system | Database | Application software | Firmware
+15,2015,MCQ,This MS-Excel formula adds the contents of given cells A1:A5? | Count(A1:A5) | SUM(A1:A5) | AVG(A1:A25) | A1+A5
+16,2015,Short,What is the function of MODEM? Define different types of MODEM.
+17,2015,Short,What is Computer Virus? Define different types of Virus.
+18,2015,Short,What are the functions of Router and Gateway in Data Communication?
+19,2015,Short,What is Internet? Define its components.
+20,2015,Short,Write the full form of the following: HTML & ISO & IEEE & WAN & HTTP & ASCII
+21,2015,Short,Define the following: Bus & Cache Memory & Bar Code Reader
+22,2015,Short,Differentiate between Volatile Memory and Non-volatile Memory.
+23,2015,Short,Define Simplex & Half-duplex and Full-duplex modes of Data Communication.
+24,2015,Short,What is Operating System? Why is it necessary for a computer system?
+25,2015,Long,Explain any four LAN Topologies.
+26,2015,Long,What do you mean by Protocol? Define any two types of Protocol.
+27,2015,Long,What are Registers? Write the functions of any three Registers.
+28,2015,Long,Explain Synchronous Transmission and Asynchronous Transmission.
+29,2015,Long,Explain the different types of Impact Printers.
+30,2015,Long,Describe the advantages and disadvantages of Fiber Optic Cable.
+31,2016,MCQ,A Compiler is a/an? | Language translator program | Part of a computer | Source program | Object program
+32,2016,MCQ,Data transmission in both directions simultaneously is? | Simplex | Half duplex | Full duplex | Synchronous
+33,2016,MCQ,This term is used to describe the data handling capacity of a given media? | Buffer | Routing | Bandwidth | Cache
+34,2016,MCQ,Bar code reader is an example of? | Processing device | Input device | Output device | Storage device
+35,2016,MCQ,A software which enables users and applications to interact with the computer hardware is called? | Browser | Operating system | Application software | Database management system
+36,2016,MCQ,This MS-Excel function computes the average of given cells A1:A4? | SUM(A1:A4) | MIN(A1:A4) | AVERAGE(A1:A4) | COUNT(A1:A4)
+37,2016,MCQ,In a fiber optic cable the core is surrounded by a second layer of glass called? | Yoke | Cladding | Cap | Outer pipe
+38,2016,MCQ,This register holds the instruction awaiting execution? | MBR | MAR | AC Register | Program Counter
+39,2016,MCQ,The intersection of a row and a column in an Excel spreadsheet is called? | Formula | Cell | Macro | Function
+40,2016,MCQ,The special software needed to view a webpage is called? | Newsgroup | Web browser | Firewall | Antivirus
+41,2016,MCQ,Daisy wheel is a type of? | Scanner | Printer | Plotter | Tape
+42,2016,MCQ,The shortcut key in MS-Word for saving a document is? | Ctrl+S | Ctrl+C | Ctrl+P | Ctrl+B
+43,2016,MCQ,Illegal copy of copyright software is called? | Hacking | Theft of services | Software piracy | Theft of hardware
+44,2016,MCQ,Memory which stays unaffected when the computer system is powered off is? | RAM | DOS | Cache | ROM
+45,2016,MCQ,This is not an operating system? | Unix | Compiler | Register | Windows
+46,2016,Short,Define the following terms related to screen display: CRT & Pixel & Resolution
+47,2016,Short,List the various functions normally performed by the Operating system.
+48,2016,Short,Define Ring topology and give its advantages and disadvantages.
+49,2016,Short,Define Search Engine.
+50,2016,Short,State the uses and abuses of Internet.
+51,2016,Short,What are the benefits of developing a Computer network?
+52,2016,Short,Define ROM and its types.
+53,2016,Short,What are the full forms of: EEPROM & GUI & OSI & DHTML & BMP & BIOS
+54,2016,Short,Define the main components of CPU.
+55,2016,Long,Describe the OSI model with diagram.
+56,2016,Long,What is System Software? Define its different types.
+57,2016,Long,What is Secondary memory? Define its types.
+58,2016,Long,Define different types of Scanning devices.
+59,2016,Long,Define Antivirus and its different types.
+60,2016,Long,Define Microwave system. How can it be useful in communication system?
+61,2017,MCQ,Sound/Voice is a kind of? | Hard Copy | Soft Copy | Light Copy | Photo Copy
+62,2017,MCQ,Bit is the short form of? | Binary Density | Binary Digit | Binary Decimal
+63,2017,MCQ,This transmission mode allows only one way communication? | Simplex | Half Simplex | Full Duplex | Half Duplex
+64,2017,MCQ,BIOS stands for? | Basic Instructions Out System | Booting In Operating System | Basic Input Output System | Booting In Output System
+65,2017,MCQ,It is a kind of System Software? | Operating System | MS Excel | MS Word | Database
+66,2017,MCQ,Computer Virus is a/an? | Program | Hardware | Silicon Chip | Amoeba
+67,2017,MCQ,This is wireless communication media? | Twisted Pair | Microwave | Coaxial | Fiber Optic
+68,2017,MCQ,This is the fastest communication medium? | Coaxial Cable | Shielded Twisted Pair | Un-shielded Twisted Pair | Fiber Optic
+69,2017,MCQ,This is a scanning device? | Bar Code Reader | Plotter | Mouse | LCD
+70,2017,MCQ,This is an internet protocol? | WWW | TCP/IP | ASCII | ISO
+71,2017,MCQ,Bus star and ring are types of? | Network topologies | Operating Systems | Protocols | Viruses
+72,2017,MCQ,CPU is linked to every hardware device in the computer system by? | Bus | ROM | Printer | Operating System
+73,2017,MCQ,A software program that enables you to display web pages is? | MS Excel | Browser | Windows | MS Word
+74,2017,MCQ,This type of printer produces highest quality print? | Laser Printer | Drum Printer | Inkjet Printer | Dot Matrix Printer
+75,2017,MCQ,The device used to convert digital signals into analog signals and vice versa is? | Modem | Gateway | Router | Bridge
+76,2017,Short,What is Data Processing Cycle? Show its steps with the help of a diagram.
+77,2017,Short,Enlist any six features of an Operating System.
+78,2017,Short,What will happen if RAM is not available in a Computer System?
+79,2017,Short,What is Protocol? Enlist four different protocols.
+80,2017,Short,What is Application Software? Name at least five Application Softwares.
+81,2017,Short,What measures can be taken to save computer system from virus attacks?
+82,2017,Short,Why is cache memory used in Computer System?
+83,2017,Short,What is port? Enlist its types.
+84,2017,Short,Write Full forms of the following: FTP &  HTTP & USB
+85,2017,Short,Draw labeled diagram of OSI Model.
+86,2017,Short,How is secondary storage different from primary storage?
+87,2017,Short,Define bit & byte and word.
+88,2017,Short,Why is ROM called non-volatile memory?
+89,2017,Short,What is network topology? Name any three.
+90,2017,Short,Which layer of OSI model is responsible for routing information between computers?
+91,2017,Short,Define the term Bandwidth.
+92,2017,Short,List the benefits of LAN.
+93,2017,Short,Write the input device or output device in the given. Hardware: Ada &  Joystick & Scanner & Mouse & Touch Screen & LED & Inkjet Printer.
+94,2017,Long,Explain different types of Impact printers.
+95,2017,Long,What is System Software? Discuss its types.
+96,2017,Long,Discuss the major components of Computer System.
+97,2017,Long,Discuss the modes of transmission with examples.
+98,2017,Long,Differentiate between Asynchronous and Synchronous transmission methods.
+99,2017,Long,Describe instruction Fetch cycle.
+100,2017,Long,What is the use of Buses in computer system? Discuss the functions of any two buses.
+101,2017,Long,What is computer crime? How is the computer being used as tool of crime?
+102,2017,Long,Discuss the characteristics of Computer.
+103,2018,MCQ,This is the sequence of instructions? | Stack | Process | Program | Flowchart
+104,2018,MCQ,The network of networks is called? | Intranet | Internet | Extranet | Instanct
+105,2018,MCQ,In the word e-mall the letter 'e' stands for? | Extra | External | Electronic | Easy
+106,2018,MCQ,This technology is used in compact disks? | Mechanical | Electrical | Electro Magnetic
+107,2018,MCQ,The transport layer in OSI model is? | Layer 3 | Layer 4 | Layer 5 | Layer 6
+108,2018,MCQ,The register that holds the instruction waiting for execution is? | MBR | MAR | AC Register | Program Counter
+109,2018,MCQ,This data transmission transmits data only in one direction? | Full Duplex | Half Duplex | Simplex | Synchronous
+110,2018,MCQ,Coaxial cable and Fiber optic cable are examples of? | Communication Mode | Topology | Communication Media | Storage Device
+111,2018,MCQ,CPU is linked to every hardware device in the computer system with? | ROM | Bus | Printer | Operating System
+112,2018,MCQ,Ribbon is used in? | Plotter | Laser Printer | Ink-jet Printer | Dot Matrix Printer
+113,2018,MCQ,During the normal PC boot process this activates first? | RAM BIOS | CMOS | ROM BIOS | Hard Disk Information
+114,2018,MCQ,Sequence control register is also known as? | Program Counter | Instruction Counter | Sequence Register | Controlling Register
+115,2018,MCQ,Two dissimilar networks are connected with? | Server | Bridge | Router | Gateway
+116,2018,MCQ,Computer data is transmitted block by block in this transmission? | Full Duplex | Asynchronous | Parallel | Synchronous
+117,2018,MCQ,The network topology that always uses central server is? | Ring | Hybrid | Star | Bus
+118,2018,Short,Write any three abuses of internet.
+119,2018,Short,What is a Search Engine? Name any three Search Engines.
+120,2018,Short,Define control unit of CPU.
+121,2018,Short,What are the peripheral devices? Name any three.
+122,2018,Short,List the three benefits of copyright.
+123,2018,Short,Give three main objectives of LAN.
+124,2018,Short,Why is the data-bus called bi-directional bus?
+125,2018,Short,Define Memory word.
+126,2018,Short,Define Fetch cycle.
+127,2018,Short,Why is Modem called Modulator and Demodulator?
+128,2018,Short,How is computer beneficial in Banks?
+129,2018,Short,How is virus transferred from one Computer to another?
+130,2018,Short,What is the difference between command line interface and GUI?
+131,2018,Short,Write the full forms of the following: HTML & LED & OMR
+132,2018,Short,What is website address? Name any two websites.
+133,2018,Short,What are the elements of Data communication?
+134,2018,Short,Why is ROM called non-volatile memory?
+135,2018,Short,Write the input or output device in the given column: Monitor & Keyboard & Plotter & OMR & Touch Pad & Drum Printer
+136,2018,Long,What are scanning input devices? Explain any two scanning devices.
+137,2018,Long,What is a computer register? Define its four types.
+138,2018,Long,Define data communication modes with diagram.
+139,2018,Long,What are the different types of Non-impact printers?
+140,2018,Long,Explain the OSI model with diagram.
+141,2018,Long,What is software piracy? Explain.
+142,2018,Long,Describe the various types of communication media used for data communication.
+143,2018,Long,Explain LAN topologies with diagram.
+144,2018,Long,What is language translator? Define its different types?
+145,2022,MCQ,One Gigabyte (GB) is equivalent to? | 1024KB | 1024MB | 1024TB | 1024ZB
+146,2022,MCQ,EBCDIC is the abbreviation of? | Extended Bit Code Decimal Interchange Code | Extended Binary Coded Decimal Interchange Code | Extended Bit Case Decimal Interchange Code | Extended Binary Code Decimal Interchange Code
+147,2022,MCQ,A bar-code reader is an example of a/an? | Processing Device | Storage Device | Input Device | Output Device
+148,2022,MCQ,This is the common language of internet to develop a webpage? | HTML | BASIC | WWW | HTTP
+149,2022,MCQ,This is the fastest data communication medium? | Co-axial Cable | Twisted Pair Cable | Fiber Optic Cable | Microwave
+150,2022,MCQ,In Full duplex transmission data travels in: | parallel direction | two directions but simultaneously | two directions but not simultaneously | one direction
+151,2022,MCQ,The internal process of starting up a computer is called? | Self-start | Warm-up | Start-up
+152,2022,MCQ,This register holds the instructions awaiting execution? | MCR | MBR | AC Register | Program Counter
+153,2022,MCQ,A Computer Virus is a? | Bacteria | Malware | Firmware | Hardware
+154,2022,MCQ,It controls all parts of the computer system? | ALU | CU | MU | RAM
+155,2022,MCQ,The process of converting analogue signals into digital signals is called? | Modulation | Demodulation | Telecommunication | Communication
+156,2022,MCQ,DOS Linux and Unix are examples of? | Operating System | Viruses | Language Translator | A Program
+157,2022,MCQ,Hardware and software combination used for connecting similar networks is a? | Router | Gateway | Bridge | Switch
+158,2022,MCQ,A software that enables to display web pages is? | HTML | Web Browser | WWW | Compiler
+159,2022,MCQ,This program translates whole program at a time? | Interpreter | Simulator | Compiler | Assembler
+160,2022,MCQ,This network topology always uses central server? | Ring | Star | Bus | Hybrid
+161,2022,MCQ,This technology is used in compact disks? | Mechanical | Electrical | Electro Magnetic | Laser
+162,2022,MCQ,RAM is also called? | Secondary Memory | Main Memory | External Memory | Non-volatile Memory
+163,2022,MCQ,The electrical path used to transfer data in CPU is called? | Wire | Cable | Port | Bus
+164,2022,MCQ,The set of rules to send and receive data is called? | Register | Protocol | Bus | Ethernet
+165,2022,MCQ,This is a sequential storage medium? | Magnetic Disk | Magnetic Tape | DVD | Floppy Disk
+166,2022,MCQ,This term describes the data handling capacity of a given media? | MHz | Bandwidth | Byte | Frequency
+167,2022,MCQ,The peripheral devices are attached with computer through? | Sockets | Connector | Ports | Plugs
+168,2022,MCQ,The network of networks is called? | Internet | Extranet | LAN
+169,2022,MCQ,A group of bits is called? | Byte | Character | Nibble
+170,2022,MCQ,This is the physical path over which a message travels? | Medium | Protocol | Operating System | WAN
+171,2022,MCQ,OSI stands for? | Operating System Interconnection | Open System Interconnection | Organization for Standard Internet | Open System Internet
+172,2022,MCQ,Illegal copies of copyrighted software is called? | Fake | Privacy | Piracy | Photocopy
+173,2022,MCQ,This virus replicates itself? | Worm | Bug | Vaccine | Bomb
+174,2022,Short,What is an Interpreter ? How does it differ from a computer ?
+175,2022,Short,What is Data Processing Cycle? Write its steps with the help of diagram.
+176,2022,Short,What is the difference between Hardcopy and Softcopy?
+177,2022,Short,Why ROM is called non-volatile memory?
+178,2022,Short,Write any four abuses of Internet.
+179,2022,Short,State Copyright Law. Give its advantages.
+180,2022,Short,Define the main components of CPU.
+181,2022,Short,Draw OSI model.
+182,2022,Short,Differentiate between asynchronous transmission and synchronous transmission.
+183,2022,Short,How computers can be useful in medical science?
+184,2022,Short,Draw a label diagram of a digital computer.
+185,2022,Short,Define the instruction cycle with label diagram.
+186,2022,Short,Write full form of any three of the following: MBR & ISO &  HTTP &  LED &  OMR
+187,2022,Short,Define the computer virus. Name any two viruses.
+188,2022,Short,Define Star Topology and give its advantages.
+189,2022,Long,What is an Operating System? Explain the functions performed by an operating system.
+190,2022,Long,Explain different types of communication media/channel used in data communication.
+191,2022,Long,What is a Register? Explain the functions of various types of registers.
+192,2023,MCQ,This is an example of system software? | MS Excel | MS Word | Operating System | Visual Basic
+193,2023,MCQ,This is a low level language? | Assembly | Visual Basic | Java | C++
+194,2023,MCQ,This is a sequential storage medium? | CD | Magnetic Tape | Punch Card | Hard Disk
+195,2023,MCQ,This topology has a central hub? | Mesh | Star | Ring | Bus
+196,2023,MCQ,The process of converting digital signals to analog signals is called? | Modulation | Demodulation | Synchronization | Transformation
+197,2023,MCQ,This is a set of rules that govern data communications? | Buses | Registers | Routers | Protocols
+198,2023,MCQ,This is not a computer virus? | Trojan Horse | Time Bomb | Avast | Worm
+199,2023,MCQ,This is a computer virus that replicates itself? | Bug | Worm | Vaccine | Other
+200,2023,MCQ,Bluetooth is an example of? | Personal Area Network | Local Area Network | Virtual Private Network | Wide Area Network
+201,2023,MCQ,This is a printer that works by spraying ionized ink on paper? | Ink-jet Printer | Dot Matrix | Laser Printer | Chain Printer
+202,2023,MCQ,In this topology all nodes are connected to a single cable or line? | Ring | Star | Tree | Mesh
+203,2023,MCQ,A television broadcast is an example of which transmission mode? | Half Duplex | Simplex | Full Duplex | Multiplex
+204,2023,MCQ,DPI stands for? | Dot Per Inch | Decimal Per Inch | Digit Per Inch | Data Per Inch
+205,2023,MCQ,A group of bits that tells the computer to perform a specific operation is known as? | Instruction Coder | Algorithm | Accumulator | Register
+206,2023,MCQ,A person who gains illegal access to a computer system is known as? | Hacker | Spy | Pirate | Thief
+207,2023,Short,What is data communication: Name its components
+208,2023,Short,Write any three differences between Impact Printer and Non-Impact Printer.
+209,2023,Short,What is Computer Virus? How can we protect our computer from Virus?
+210,2023,Short,What is meant by Modulation and De-modulation?
+211,2023,Short,Which technical issue is common in Ring and Bus Topology?
+212,2023,Short,Why ROM is called non-volatile memory?
+213,2023,Short,What is the function of a Compiler and an interpreter?
+214,2023,Short,What do you mean by Broadcasting?
+215,2023,Short,What is the main difference between Router and Gateway?
+216,2023,Short,Name any two simplex devices used in communication system.
+217,2023,Short,Why Address Bus is called unidirectional?
+218,2023,Short,Draw the block diagram of Fetch Cycle.
+219,2023,Short,Name the fastest communication media.
+220,2023,Short,Define Protocol. Name any three protocols.
+221,2023,Short,What is Copyright Law?
+222,2023,Long,What is System Software? Explain operating system.
+223,2023,Long,Explain different types of network topologies.
+224,2023,Long,Explain OSI model with layered diagram.
+225,2023,Long,What is CPU Register? Explain its different types.
+226,2023,Long,What is communication Media? Discuss its different types.
+227,2024,MCQ,This is an object-oriented language? | Assembly | C | Pascal | C++
+228,2024,MCQ,It is called the brain of computer? | CPU | MAR | MDR | IR
+229,2024,MCQ,The term PUSH in STACK means to? | Add Element | Delete Element | Update Element | Find Element
+230,2024,MCQ,Unauthorized duplication of computer software is called? | Switching | Networking | Software Piracy | Cyber Security
+231,2024,MCQ,This virus duplicates itself? | Trojan Horses | Worm | Time Bomb | File Infector
+232,2024,MCQ,A telephone conversation is an example of? | Simplex | Half Duplex | Full Duplex | Duplex
+233,2024,MCQ,Unix is a/an? | Operating System | Virus | Compiler | API
+234,2024,MCQ,It is used to develop a web page? | HTML | HTTP | BASIC | WWW
+235,2024,MCQ,This software displays a web page? | Compiler | Browser | Text Editor | Spread Sheet
+236,2024,MCQ,This interface allows user to interact with the computer by typing commands? | CLI | GUI | CPI | MBR
+237,2024,MCQ,Conversion of computer code into secret code is called? | Normalization | Encryption | Fine Code | Data Centralization
+238,2024,MCQ,This is a scanning input device? | Keyboard | Mouse | OMR | MAR
+239,2024,MCQ,It is a line printer? | Dot Matrix | Daisy Wheel | Drum Printer | Inkjet Printer
+240,2024,MCQ,A computer virus is a? | Hardware | Firmware | Malware | Software
+241,2024,MCQ,Monitor is a? | Hardware | Software | Firmware | Footwear
+242,2024,Short,Draw a labelled diagram of Data Processing Cycle.
+243,2024,Short,Differentiate Primary Memory and Secondary Memory.
+244,2024,Short,What is Cache? Mention its types.
+245,2024,Short,What is Language Translator? Define Interpreter.
+246,2024,Short,Define the following: Simplex Mode & Half-Duplex Mode & Full-Duplex Mode
+247,2024,Short,What is Synchronous Transmission?
+248,2024,Short,Draw a labelled diagram of OSI reference model.
+249,2024,Short,What is ASCII coding scheme?
+250,2024,Short,Define the term BUS with two examples.
+251,2024,Short,What is a Port? Enlist its types.
+252,2024,Short,Enlist five functions of an Operating System.
+253,2024,Short,Define PUSH and POP in STACK.
+254,2024,Short,What is an Email? Write three advantages of Email.
+255,2024,Short,Write full forms of: LED & LCD & MBR & BIOS & ALU & TCP/IP
+256,2024,Long,What is a Monitor? Explain CRT and Flat Panel Monitors with their types.
+257,2024,Long,Explain different types of Printers.
+258,2024,Long,What is Software Privacy? How can we protect our Software?
+259,2024,Long,What are Scanning Devices? Explain their different types.
+260,2024,Long,Define Computer Virus. Explain its types.
+261,2025,MCQ,The primary function of CPU in a computer is? | To input data | To store data | To process data | To output data
+262,2025,MCQ,This is considered the brain of the computer? | RAM | Hard Disk Drive | CPU | Keyboard
+263,2025,MCQ,The smallest unit of data in a computer is? | Bit | Byte | Megabyte | Gigabyte
+264,2025,MCQ,This programming language is commonly used for web development? | Turbo C | C++ | HTML | Python
+265,2025,MCQ,In internet URL stands for? | Universal Resource Locator | Unique Resource Locator | Uniform Resource Locator | Ultimate Resource Locator
+266,2025,MCQ,This is not a type of computer network? | LAN | WAN | MAN | CPU
+267,2025,MCQ,The purpose of a compiler in programming language is to? | Convert high-level language into machine code | Translate source code into assembly language | Execute the program | Debug errors in the code
+268,2025,MCQ,SNA stands for? | System Network Architecture | Small Network Access | Small Network Area | Serial Network Adaptor
+269,2025,MCQ,The third generation of computers used? | Vacuum Tubes | Integrated Circuits | Transistors | Microprocessors
+270,2025,MCQ,Data transmission in which data flows in both directions at the same time is called? | Simplex | Half Duplex | Full Duplex | Multiplex
+271,2025,MCQ,This is not a type of operating system? | Windows | Linux | Oracle | Mac OS
+272,2025,MCQ,This is an example of system software? | MS Word | Windows 10 | Adobe Photoshop | Chrome Browser
+273,2025,MCQ,The main purpose of data communication is? | To store large amounts of data | To transfer data between devices | To display images | To protect against viruses
+274,2025,MCQ,Which logic gate produces output 1 when all inputs are 1 otherwise 0? | AND | NOT | OR | NOR
+275,2025,MCQ,A computer cannot boot if it does not have? | Compiler | Browser | Operating System | Loader
+276,2025,Short,What are the main devices of IoT?
+277,2025,Short,Differentiate between Synchronous and Asynchronous.
+278,2025,Short,What do you mean by primary and secondary storage?
+279,2025,Short,Define the role of application software in computer field.
+280,2025,Short,Define the concept of binary digits (bit & bytes & Nibble) in computing.
+281,2025,Short,What is the difference between compiler and interpreter?
+282,2025,Short,What are main differences between Impact and Non-Impact Printer?
+283,2025,Short,What is Metropolitan Area Network?
+284,2025,Short,Define any three input and output devices.
+285,2025,Short,Draw any one diagram of the following equations using logical gate: (A.B) + (A.B) = C | X + (Y.Z) = W
+286,2025,Short,What is the main purpose of ALU?
+287,2025,Short,Define different types of ROM.
+288,2025,Short,Convert any three of the following number systems: (0111)2 to (?)10 & (243)8 to (?)10 & (188)10 to (?)10 & (659)10 to (?)8 & (ABC)16 to (?)10 & (785)10 to (?)10
+289,2025,Short,Draw block diagram of a computer system.
+290,2025,Short,Define advancement in computer generation and highlight the key features of fourth generation.
+291,2025,Long,Define Computer Network. Describe LAN and WAN with diagram
+292,2025,Long,Define data communication. Also describe its main components.
+293,2025,Long,Describe different modes of data communication with examples.
+294,2025,Long,What is the purpose of an operating system in a computer? Describe its features.
+295,2025,Long,What is Boolean Algebra? Write its rules and construct a truth table for two inputs to perform AND and OR logical operations.

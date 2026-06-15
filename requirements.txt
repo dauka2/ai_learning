@@ -1,0 +1,38 @@
+# ── Adaptive Learning AI — runtime dependencies ────────────────────────────
+# Установка:  pip install -r requirements.txt
+# Запуск:     uvicorn app:app --reload
+# Открыть:    http://127.0.0.1:8000
+#
+# Python 3.10+ (разрабатывалось и тестировалось на 3.12).
+
+# --- Web / API ---
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+
+# --- Научное ядро (IRT, LearnerProfileNet, аналитика) ---
+numpy>=1.26
+pandas>=2.1
+
+# --- База данных (SQLAlchemy ORM) ---
+# По умолчанию используется SQLite (файл data/app.db, ничего ставить не нужно).
+# Чтобы переключиться на PostgreSQL — задайте переменную окружения DATABASE_URL,
+# например:  postgresql+psycopg2://user:pass@localhost:5432/adaptive
+# и раскомментируйте драйвер psycopg2-binary ниже.
+SQLAlchemy>=2.0
+# psycopg2-binary>=2.9        # нужен только для PostgreSQL
+
+# --- Модель рекомендаций (recommender.pkl) ---
+# recommender.pkl был сериализован версией scikit-learn 1.9.x.
+# На более ранних версиях (например 1.8.x) при загрузке появляется
+# НЕфатальное предупреждение InconsistentVersionWarning — предсказания
+# при этом работают корректно. Чтобы убрать предупреждение, используйте 1.9+.
+scikit-learn>=1.4
+
+# --- LLM для объяснений и генерации заданий (ОПЦИОНАЛЬНО) ---
+# Без ключа GROQ_API_KEY система полностью работает в офлайн-режиме
+# на курируемом банке вопросов. С ключом — добавляются LLM-объяснения,
+# детектор заблуждений 2-го уровня и генерация заданий.
+#   export GROQ_API_KEY="<ваш_ключ>"   (Linux/macOS)
+#   setx   GROQ_API_KEY "<ваш_ключ>"   (Windows)
+groq>=0.11
